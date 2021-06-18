@@ -1,6 +1,6 @@
 FROM python:3.7-slim
 WORKDIR /usr/src/app
-RUN mkdir mkdir src
+RUN mkdir src
 WORKDIR src
 RUN python -m pip install jupyter
 RUN pip list

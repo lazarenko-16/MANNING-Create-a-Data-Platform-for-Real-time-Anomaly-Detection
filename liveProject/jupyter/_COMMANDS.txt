@@ -1,0 +1,11 @@
+
+
+ls .\Dockerfile
+
+docker build -t vl/lp-jupiter .
+
+docker image ls
+
+docker run -it -p 8888:8888 fb39b8906a48
+
+
